@@ -3,9 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta content="text/html" http-equiv="Content-Type"/>
-        <title>test</title>
+        <title>takenusrname.github.io</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <nav><a href="https://github.com/Takenusrname">My GitHub</a></nav>
         <canvas id="canvas" width="640" height="480"></canvas>
         <script src="./mq/mcguffinquest.js"></script>
         <script>
@@ -13,5 +15,11 @@
                 await wasm_bindgen("./mq/mcguffinquest_bg.wasm");
             });
         </script>
+        <div id="info">
+            <h4 >Controls</h4>
+            <p>Movement: Vi keys, NumPad, Arrow keys</p>
+            <p>Inventory: I</p>
+            <p>Drop Item: D</p>
+        </div>
     </body>
 </html>
